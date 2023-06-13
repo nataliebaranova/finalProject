@@ -1,0 +1,141 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1770px;
+
+
+
+
+}
+
+.top_container {
+  height: 400px;
+  width: 1770px;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.top__header {
+
+  font-family: Josefin Sans;
+  font-size: 48px;
+
+  margin-top: 80px;
+  letter-spacing: 3.36px;
+  vertical-align: center;
+  font-style: regular;
+  position: absolute;
+
+}
+
+
+.links_block {
+  padding-top: 250px;
+  display: flex;
+
+  &__link {
+
+    font-family: Playfair Display;
+    vertical-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 12px;
+    justify-content: space-between;
+    padding-right: 30px;
+
+
+  }
+}
+
+
+.description {
+
+  height: 740px;
+  width: 1770px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0;
+  position: relative;
+  background-color: lightgray;
+}
+
+.description_container {
+
+  
+  font-size: 36px;
+  font-family: Josefin Sans;
+  display: flex;
+  position: absolute;
+  padding-top: 90px;
+  margin-right: 1150px;
+
+  &__text-1 {
+    height: 158px;
+    width: 560px;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    position: absolute;
+    padding-top: 170px;
+    margin-right: 800px;
+  }
+
+  &__text-2{
+    height: 158px;
+    width: 560px;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    position: absolute;
+    padding-top: 170px;
+    margin-left: 400px;
+
+  }
+}
+
+.contacts{
+ 
+  height: 400px;
+  width: 1770px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(245, 245, 245, 0.83);
+  flex-direction: column;
+  align-items:flex-end;
+  margin: right 600px; 
+
+}
+
+.contacts__text-header{
+
+  margin-right: 733px; 
+}
+
+.input-box {
+  margin-right: 600px;
+  &__label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  &__input {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(231, 222, 222, 0.745);
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.send_button{
+  margin-right: 733px; 
+  margin-top: 40px;
+}
+
