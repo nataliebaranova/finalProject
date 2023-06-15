@@ -11,26 +11,28 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="styles/style.css" />
   <script src="script.js" type="text/javascript"></script>
-  
+
 
   <title>finalProject</title>
 </head>
 
 <body class="wrapper">
-  <section >
-    <div class="top_container">
-      <div class="top__header ">ERIK OMAR</div>
-  <div class="d-flex flex-column align-items-center" class="bottom_container">
-    <div class="bottom_menu links_block">
-      <div class="links_block__link"> HOME </div>
-      <div class="links_block__link"> CONTACT </div>
-      <div class="links_block__link"> PORTFOLIO</div>
+
+  <div>
+    <div class="animated-gradient">
+      <div class="top_container">
+        <div class="top__header ">ERIK OMAR</div>
+        <div class="d-flex flex-column align-items-center" class="bottom_container">
+          <div class="bottom_menu links_block">
+            <div class="links_block__link"> HOME </div>
+            <div class="links_block__link"> CONTACT </div>
+            <a href="https://www.imdb.com/name/nm11533863/" id="hidden-link" class="links_block__link">PORTFOLIO</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</section>
-  
-
+  </section>
 
 
   <section class="countdown">
@@ -56,7 +58,7 @@
       problem solving, best practices, and deadline adherence. With exceptional interpersonal, communications, and task
       prioritization expertise, I'm confident in my ability to deliver superior solutions that meet and exceed
       expectations.
-     
+
     </div>
     <div class="description_container__text-2">
       My colleagues describe me as a progressive, driven, and down-to-earth Compositor who is dedicated to delivering
@@ -74,11 +76,11 @@
 
   <section class="contacts">
     <div class="contacts__text-header">
-    Contact 
+      Contact
     </div>
 
     <div class="contacts__input-box input-box">
-      <h4 class="input-box__label" >Name *</h4>
+      <h4 class="input-box__label">Name *</h4>
       <input placeholder="Enter your name" class="input-box__input" id="nameID" required></input>
     </div>
 
@@ -92,7 +94,7 @@
       <input placeholder="Write a message" class="input-box__input" id="messageID" required></input>
     </div>
 
-    <button class="send_button" id="buttonID" onclick="sendEmail()">Send</button>
+    <button class="send_button" id="sendButton" onclick="sendEmail()">Send</button>
   </section>
 </body>
 
